@@ -53,7 +53,7 @@ export default function Navigation() {
                     </div>
                 </div>
             ):(
-                <p>There are no notifications</p>
+                <p className="p-8">There are no notifications</p>
             )}
         </Box>
     );
