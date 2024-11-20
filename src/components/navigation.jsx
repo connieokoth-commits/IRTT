@@ -11,6 +11,8 @@ const API_KEY = import.meta.env.VITE_STRAPI_API_KEY
 const API_URL = import.meta.env.VITE_STRAPI_API_URL
 
 export default function Navigation() {
+    // Navigatio function
+
     const { logout } = useAuth0();
     const [notification, setNotification] = useState([]);
     const [open, setOpen] = useState(false);
